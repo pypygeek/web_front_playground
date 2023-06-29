@@ -1,9 +1,14 @@
 main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   gap: 5px;
+}
+
+#timer {
+  font-size: large;
+  font-weight: bold;
 }
 
 .board-row {
@@ -13,11 +18,13 @@ main {
   gap: 5px;
 }
 
-.board-block {
+.board-column {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #d3d6da;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #d3d6da;
-  width: 60px;
-  height: 60px;
+  font-size: 30px;
+  font-weight: bold;
 }
